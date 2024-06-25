@@ -13,4 +13,8 @@ function mv_enqueue() {
     'mv_theme',
     get_theme_file_uri('assets/public/index.css')
   );
+
+  wp_enqueue_style('mv_font_rubik_and_pacifico');
+  wp_enqueue_style('mv_bootstrap_icons');
+  wp_enqueue_style('mv_theme');
 }
